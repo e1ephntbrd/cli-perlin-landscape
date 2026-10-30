@@ -1,0 +1,19 @@
+# ---------- .NET / C# build artifacts ----------
+[Bb]in/
+[Oo]bj/
+*.exe
+*.dll
+*.pdb
+*.suo
+
+# ---------- VS ----------
+.vscode/
+!.vscode/extensions.json
+
+# ---------- Docker / Logs ----------
+.dockerignore
+*.log
+
+# ---------- OS ----------
+.DS_Store
+Thumbs.db
